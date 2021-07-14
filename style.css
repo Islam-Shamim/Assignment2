@@ -130,6 +130,10 @@ h3{
     .header{
         flex-wrap: wrap;
     }
+    .head{
+        margin-left:20px;
+        text-align:center;
+    }
     .t-player,.group1,.group2,.group3{
         flex-direction: column;
         align-items:center;
