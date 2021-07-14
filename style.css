@@ -11,6 +11,10 @@ body{
     background-color: blue;
     align-items: center;
 }
+.header:hover .head img{
+    transform:scale(1.2);
+    transition: width 3s,height 3s,transform 3s ;
+}
 .head img{
     height:438px;
     width:556px;
