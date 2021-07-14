@@ -30,6 +30,7 @@ button{
     padding:20px;
     background-color: brown;
     color:white;
+    margin-left:0;
 }
 button a{
     text-decoration: none;
@@ -103,4 +104,21 @@ p{
 }
 #copyright{
     font-size:18px;
+}
+/* Media Query */
+@media (max-width:688px) {
+    body{
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .header{
+        flex-wrap: wrap;
+    }
+    .t-player,.group1,.group2,.group3{
+        flex-direction: column;
+        align-items:center;
+    }
+    .top-player,.player{
+        margin-bottom:20px;
+    }
 }
